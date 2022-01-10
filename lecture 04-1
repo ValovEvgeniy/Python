@@ -1,7 +1,7 @@
 import random
 
 while True:
-    try:
+     try:
    N = int(input("Введите нужное количество элементов массива: "))
 break
   except (TypeError, ValueError) as e:
