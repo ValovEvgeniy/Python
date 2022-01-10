@@ -10,5 +10,5 @@ def bogo(arr):
     while not is_sorted(arr):
       random.shuffle(arr)
 return arr
-a = [5, 4, 2]
+    a = [5, 4, 2]
 print(bogo(a))
