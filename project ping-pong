@@ -224,6 +224,5 @@ c.bind("<KeyRelease>", stop_pad)
 
 # запускаем движение
 main()
-
 # запускаем работу окна
 root.mainloop()
