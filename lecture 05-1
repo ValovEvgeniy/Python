@@ -6,7 +6,6 @@ while True:
         break
     except (TypeError, ValueError) as e:
         print("Упс, что-то пошло не так, попробуйте снова ввести целое число!", e)
-
 res = []
 for x in range(0, N):
     res.append(random.randint(0, 1000))
